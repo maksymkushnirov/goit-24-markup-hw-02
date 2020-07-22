@@ -7,8 +7,9 @@
     --accent-color: #2196F3;}
 body {
     background-color: #fff19f;
-    color: #757575;
-    font-family: var(--main-font);}
+    font-family: var(--main-font);
+    font-size: 14px;
+    color: var(--text-color)}
 .link {
     text-decoration: none;}
 .list {
@@ -144,14 +145,22 @@ line-height: 1.16;
 letter-spacing: 0.03em;
 color: #212121;}
 /* footer */
-.footer-contacts-item-adress {
+.footer-contacts-item-title-address {
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: #ffffff;}
+color: #FFFFFF;}
+.footer-contacts-item-title {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);}
 .footer-contacts-item {
 font-family: Roboto;
 font-style: normal;
