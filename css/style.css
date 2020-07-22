@@ -1,7 +1,13 @@
 :root {
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --dark-title-color: #212121;
+    --light-title-color: #ffffff;
+    --text-color: #757575;
     --accent-color: #2196F3;}
 body {
     background-color: #fff19f;
+    color: #757575;
     font-family: var(--main-font);}
 .link {
     text-decoration: none;}
