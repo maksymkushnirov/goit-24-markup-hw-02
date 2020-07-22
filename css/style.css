@@ -36,6 +36,7 @@ letter-spacing: 0.02em;
 color: #212121;}
 .header-contacts-item-title {
 font-family: var(--main-font);
+font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -45,7 +46,7 @@ color: #757575;}
 .navigation-item-title:focus,
 .header-contacts-item-title:hover,
 .header-contacts-item-title:focus {
-color: var(--accent-colort);}
+color: var(--accent-color);}
 /* main */
 /* hero-section */
 .main-title {
