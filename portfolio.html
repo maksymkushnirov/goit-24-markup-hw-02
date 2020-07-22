@@ -4,121 +4,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title lang="ru">Портфолио</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 <!-- header-->
-<header>
-    <nav>
-    <a href="./index.html" lang="en"><span class="logo">Web</span> Studio</a>
-    <ul>
-        <li><a href="">Студия</a></li>
-        <li><a href="">Портфолио</a></li>
-        <li><a href="">Контакты</a></li>
-        </ul>
+<header class="header">
+    <nav class="navigation">
+    <a class="logo link" href="./index.html" lang="en"><span class="logo-first-part">Web</span> Studio</a>
+    <ul class="navigation-list list">
+        <li class="navigation-item" ><a class="navigation-item-title link" href="./index.html">Студия</a></li>
+        <li class="navigation-item"><a class="navigation-item-title link" href="./portfolio.html">Портфолио</a></li>
+        <li class="navigation-item"><a class="navigation-item-title link" href="">Контакты</a></li>
+    </ul>
     </nav>
-    <address>
-    <ul>
-        <li><a href="mailto:info@devstudio.com" lang="en">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+    <address class="header-contacts-list">
+    <ul class="header-contacts-list list">
+        <li class="header-contacts-item"><a class="header-contacts-item-title link" href="mailto:info@devstudio.com" lang="en">info@devstudio.com</a></li>
+        <li class="header-contacts-item"><a class="header-contacts-item-title link" href="tel:+380961111111">+380961111111</a></li>
     </ul>
     </address>
 </header>
 <!-- main -->
 <main>
-<section class="examples">
-<h1 hidden>Наши работы</h1>
-<!-- examples-types -->
-<ul class="examples-type">
-    <li class="examples-type-item">
+<section class="examples-filters-section">
+<h1 class="main-title" hidden>Наши работы</h1>
+<!-- examples-filters-section -->
+<h2 class="examples-filters-section-title" hidden>Виды наших работ</h2>
+<ul class="examples-filters-section-list list">
+    <li class="examples-filters-section-item">
         <button class="button-filter" type="button">Все</button>
     </li>
-    <li class="examples-type-item">
+    <li class="examples-filters-section-item">
         <button class="button-filter" type="button">Веб-сайты</button>
     </li>
-    <li class="examples-type-item">
+    <li class="examples-filters-section-item">
         <button class="button-filter" type="button">Приложения</button>
     </li>
-    <li class="examples-type-item">
+    <li class="examples-filters-section-item">
         <button class="button-filter" type="button">Дизайн</button>
     </li>
-    <li class="examples-type-item">
+    <li class="examples-filters-section-item">
         <button class="button-filter" type="button">Маркетинг</button>
     </li>
 </ul>
-<!-- examples -->
-<ul class="examples-list">
-    <li class="examples-item">
-        <a class="examples-item-link" href="" target="_blank">
+<!-- examples-section-->
+<h2 class="examples-section-title" hidden>Примеры наших работ</h2>
+<ul class="examples-section-list list">
+    <li class="examples-section-item">
+        <a class="examples-section-item-link link" href="" target="_blank">
             <img src="./images/portfolio/project1.jpg" alt="Технокряк" width="370" height="294">
-            <h2 class="examples-item-name">Технокряк</h2>
-            <p class="examples-item-type">Веб-сайт</p>
-            <p class="examples-item-description">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+            <h2 class="examples-section-item-title">Технокряк</h2>
+            <p class="examples-section-item-type">Веб-сайт</p>
+            <p class="examples-section-item-description">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
         </a>
     </li>
-    <li class="examples-item">
-        <a class="examples-item-link" href="" target="_blank">
+    <li class="examples-section-item">
+        <a class="examples-section-item-link link" href="" target="_blank">
             <img src="./images/portfolio/project2.jpg" alt="Постер New Orlean vs Golden Star" width="370" height="294">
-            <h2 class="examples-item-name">Постер New Orlean vs Golden Star</h2>
-            <p class="examples-item-type">Дизайн</p>
-            <p class="examples-item-description">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+            <h2 class="examples-section-item-title">Постер New Orlean vs Golden Star</h2>
+            <p class="examples-section-item-type">Дизайн</p>
+            <p class="examples-section-item-description">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
         </a>
     </li>
-    <li class="examples-item">
-        <a class="examples-item-link" href="" target="_blank">
+    <li class="examples-section-item">
+        <a class="examples-section-item-link link" href="" target="_blank">
             <img src="./images/portfolio/project3.jpg" alt="Ресторан Seafood" width="370" height="294">
-            <h2 class="examples-item-name">Ресторан Seafood</h2>
-            <p class="examples-item-type">Приложение</p>
-            <p class="examples-item-description">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+            <h2 class="examples-section-item-title">Ресторан Seafood</h2>
+            <p class="examples-section-item-type">Приложение</p>
+            <p class="examples-section-item-description">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
         </a>
     </li>
-    <li class="examples-item">
-        <a class="examples-item-link" href="" target="_blank">
+    <li class="examples-section-item">
+        <a class="examples-section-item-link link" href="" target="_blank">
             <img src="./images/portfolio/project4.jpg" alt="Проект Prime" width="370" height="294">
-            <h2 class="examples-item-name">Проект <span lang="en">Prime</span></h2>
-            <p class="examples-item-type">Веб-сайт</p>
-            <p class="examples-item-description">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+            <h2 class="examples-section-item-title">Проект <span lang="en">Prime</span></h2>
+            <p class="examples-section-item-type">Веб-сайт</p>
+            <p class="examples-section-item-description">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
         </a>
     </li>
-    <li class="examples-item">
-        <a class="examples-item-link" href="" target="_blank">
+    <li class="examples-section-item">
+        <a class="examples-section-item-link link" href="" target="_blank">
             <img src="./images/portfolio/project5.jpg" alt="Проект Boxes" width="370" height="294">
-            <h2 class="examples-item-name">Проект <span lang="en">Boxes</span></h2>
-            <p class="examples-item-type">Приложение</p>
-            <p class="examples-item-description">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+            <h2 class="examples-section-item-title">Проект <span lang="en">Boxes</span></h2>
+            <p class="examples-section-item-type">Приложение</p>
+            <p class="examples-section-item-description">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
         </a>
     </li>
-    <li class="examples-item">
-        <a class="examples-item-link" href="" target="_blank">
+    <li class="examples-section-item">
+        <a class="examples-section-item-link link" href="" target="_blank">
             <img src="./images/portfolio/project6.jpg" alt="Inspiration has no Borders" width="370" height="294">
-            <h2 class="examples-item-name" lang="en">Inspiration has no Borders</h2>
-            <p class="examples-item-type">Веб-сайт</p>
-            <p class="examples-item-description">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+            <h2 class="examples-section-item-title" lang="en">Inspiration has no Borders</h2>
+            <p class="examples-section-item-type">Веб-сайт</p>
+            <p class="examples-section-item-description">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
         </a>
     </li>
-    <li class="examples-item">
-        <a class="examples-item-link" href="" target="_blank">
+    <li class="examples-section-item">
+        <a class="examples-section-item-link link" href="" target="_blank">
             <img src="./images/portfolio/project7.jpg" alt="Издание Limited Edition" width="370" height="294">
-            <h2 class="examples-item-name">Издание <span lang="en">Limited Edition</span></h2>
-            <p class="examples-item-type">Дизайн</p>
-            <p class="examples-item-description">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+            <h2 class="examples-section-item-title">Издание <span lang="en">Limited Edition</span></h2>
+            <p class="examples-section-item-type">Дизайн</p>
+            <p class="examples-section-item-description">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
         </a>
     </li>
-    <li class="examples-item">
-        <a class="examples-item-link" href="" target="_blank">
+    <li class="examples-section-item">
+        <a class="examples-section-item-link link" href="" target="_blank">
             <img src="./images/portfolio/project8.jpg" alt="Проект LAB" width="370" height="294">
-            <h2 class="examples-item-name">Проект <span lang="en">LAB</span>></h2>
-            <p class="examples-item-type">Маркетинг</p>
-            <p class="examples-item-description">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+            <h2 class="examples-section-item-title">Проект <span lang="en">LAB</span></h2>
+            <p class="examples-section-item-type">Маркетинг</p>
+            <p class="examples-section-item-description">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
         </a>
     </li>
-    <li class="examples-item">
-        <a class="examples-item-link" href="" target="_blank">
+    <li class="examples-section-item">
+        <a class="examples-section-item-link link" href="" target="_blank">
             <img src="./images/portfolio/project9.jpg" alt="Growing Business" width="370" height="294">
-            <h2 class="examples-item-name" lang="en">Growing Business</h2>
-            <p class="examples-item-type">Приложение</p>
-            <p class="examples-item-description">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
+            <h2 class="examples-section-item-title" lang="en">Growing Business</h2>
+            <p class="examples-section-item-type">Приложение</p>
+            <p class="examples-section-item-description">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
         </a>
     </li>
 </ul>
@@ -127,31 +130,32 @@
 <!-- footer -->
 <footer>
     <div>
-        <a href="./index.html" lang="en"><span class="logo">Web</span> Studio</a>
+        <a class="logo link" href="./index.html" lang="en"><span class="logo-first-part">Web</span> Studio</a>
         <address>
-        <ul>    
-            <li><a href="https://goo.gl/maps/iPoMP3J4LoHtfxp78" target="_blank"> г. Киев, пр-т Леси Украинки, 26</a></li>
-            <li><a href="mailto:info@devstudio.com" lang="en">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="footer-contacts list">
+            <li class="footer-contacts-item-adress"><a href="https://goo.gl/maps/iPoMP3J4LoHtfxp78" target="_blank"> г. Киев, пр-т Леси Украинки, 26</a></li>
+            <li class="footer-contacts-item"><a href="mailto:info@devstudio.com" lang="en">info@devstudio.com</a></li>
+            <li class="footer-contacts-item"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
         </address>
     </div>
     <div>
-        <b>Присоединяйтесь</b>
-        <ul>
-            <li><a href=""><img src="./images/main/instagram.svg" width="20" height="20" title="Instagram" alt="Instagram" lang="en"></a>
-                <li><a href=""><img src="./images/main/twitter.svg" width="20" height="20" title="Twitter" alt="Twitter" lang="en"></a>
-                <li><a href=""><img src="./images/main/facebook.svg" width="20" height="20" title="Facebook" alt="Facebook" lang="en"></a>
-                <li><a href=""><img src="./images/main/linkedin.svg" width="20" height="20" title="LinkedIn" alt="LinkedIn" lang="en"></a>
+        <b class="footer-social-links-list-title">Присоединяйтесь</b>
+        <ul class="footer-social-links-list list">
+            <li class="footer-social-links-list-item"><a href=""><img src="./images/main/instagram.svg" width="20" height="20" title="Instagram" alt="Instagram" lang="en"></a>
+            <li class="footer-social-links-list-item"><a href=""><img src="./images/main/twitter.svg" width="20" height="20" title="Twitter" alt="Twitter" lang="en"></a>
+            <li class="footer-social-links-list-item"><a href=""><img src="./images/main/facebook.svg" width="20" height="20" title="Facebook" alt="Facebook" lang="en"></a>
+            <li class="footer-social-links-list-item"><a href=""><img src="./images/main/linkedin.svg" width="20" height="20" title="LinkedIn" alt="LinkedIn" lang="en"></a>
         </ul>
     </div>
     <div>
-        <b>Подпишитесь на рассылку</b>
+        <b class="footer-subscription-title">Подпишитесь на рассылку</b>
         <form method="post" action="URL">
         <input type="text" placeholder="E-mail" lang="en">
         <input type="submit" value="Подписаться">
         </form>
     </div>
 </footer>
+</main>
 </body>
 </html>

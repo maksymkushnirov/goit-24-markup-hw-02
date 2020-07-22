@@ -1,0 +1,202 @@
+:root {
+    --accent-color: #2196F3;}
+body {
+    background-color: #fff19f;
+    font-family: var(--main-font);}
+.link {
+    text-decoration: none;}
+.list {
+    list-style: none;}
+/* index.html */
+/* header */
+.logo,
+.logo-first-part {
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #000000;}
+.logo-first-part {
+color: #2196F3;}
+.logo:focus
+
+.navigation-item-title {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;}
+.header-contacts-item-title {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;}
+.navigation-item-title:hover,
+.navigation-item-title:focus,
+.header-contacts-item-title:hover,
+.header-contacts-item-title:focus {
+color: #2196F3;}
+/* main */
+/* hero-section */
+.main-title {
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #ffffff;}
+.modal-button {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.06em;
+background-color: #2196F3;
+color: #ffffff;}
+.modal-button:hover,
+.modal-button:focus {
+background-color: #ffffff;
+color: #2196F3}
+/* advantages-section */
+.advantages-section-item-title {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;}
+.advantages-section-item-description {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;}
+/* activities-section */
+.activities-section-title {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+color: #212121;}
+.activities-section-item-title {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #ffffff;}
+/* team-section */
+.team-section-title {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+color: #212121;}
+.team-section-item-title {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.1875;
+letter-spacing: 0.03em;
+color: #212121;}
+.team-section-item-description {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.1875;
+letter-spacing: 0.03em;
+color: #757575;}
+/* clients-section */
+.clients-section-title {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+color: #212121;}
+/* footer */
+.footer-contacts-item-adress {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #ffffff;}
+.footer-contacts-item {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);}
+.footer-social-links-list-title,
+.footer-subscription-title {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #ffffff;}
+/* portfolio.html */
+/* main */
+.button-filter {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.625;
+letter-spacing: 0.03em;
+color: #212121;}
+/* examples-section */
+examples-section-list
+.examples-section-item-title {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.625;
+letter-spacing: 0.03em;
+color: #212121;}
+.examples-section-item-type {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.03em;
+color: #757575;}
+.examples-section-item-description {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 1.5;
+letter-spacing: 0.03em;
+color: #FFFFFF;}
