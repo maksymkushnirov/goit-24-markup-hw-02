@@ -134,6 +134,7 @@ color: var(--dark-title-color);}
 /* footer */
 .footer-contacts-item-title-address {
 font-family: var(--main-font);
+font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 1.71;
@@ -141,6 +142,7 @@ letter-spacing: 0.03em;
 color: #FFFFFF;}
 .footer-contacts-item-title {
 font-family: var(--main-font);
+font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 1.71;
