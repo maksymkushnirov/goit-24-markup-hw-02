@@ -2,8 +2,9 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web Studio</title>
+    <title>Web Studio 1.2</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -12,13 +13,13 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- Header -->
-
+    <!-- header-->
     <header>
       <nav>
-        <a href="./index.html" lang="en" class="logo"
-          >Web <span class="header">Studio</span></a
-        >
+        <a href="./index.html" lang="en" class="logo">
+          Web
+          <span class="header">Studio</span>
+        </a>
         <ul class="site-nav list">
           <li><a href="./index.html" class="link current">Студия</a></li>
           <li><a href="./portfolio.html" class="link">Портфолио</a></li>
@@ -27,29 +28,34 @@
       </nav>
       <ul class="auth-nav list">
         <li>
-          <a href="mailto:info@devstudio.com" lang="en" class="link"
-            >info@devstudio.com</a
-          >
+          <a href="mailto:info@devstudio.com" lang="en" class="link">
+            info@devstudio.com
+          </a>
         </li>
         <li><a href="tel:+380961111111" class="link">096 111 11 11</a></li>
       </ul>
     </header>
-
+    <!-- sections-main -->
     <main>
-      <!-- Hero -->
-
+      <!-- section-hero -->
       <section class="hero">
-        <h1 class="hero-title">Эффективные решения<br />для вашего бизнеса</h1>
+        <h1 class="hero-title">
+          Эффективные решения
+          <br />
+          для вашего бизнеса
+        </h1>
         <button class="button primary">Заказать услугу</button>
       </section>
-
-      <!-- Feature -->
-
+      <!-- section-advantages -->
       <section class="section">
-        <h2 hidden>Особенности</h2>
+        <h2 hidden>Наши преимущества</h2>
         <ul class="feature-list list">
           <li>
-            <img src="./images/antenna1.svg" alt="антена" />
+            <img
+              src="./images/antenna-symbolising-attention-to-detail.svg"
+              title="Внимание к деталям"
+              alt="Внимание к деталям"
+            />
             <h3 class="title">Внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
@@ -57,7 +63,11 @@
             </p>
           </li>
           <li>
-            <img src="./images/clock1.svg" alt="часы" />
+            <img
+              src="./images/clock-symbolising-punctuality.svg"
+              title="Пунктуальность"
+              alt="Пунктуальность"
+            />
             <h3 class="title">Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
@@ -65,7 +75,11 @@
             </p>
           </li>
           <li>
-            <img src="./images/diagram1.svg" alt="диаграма" />
+            <img
+              src="./images/diagram-symbolising-planning.svg"
+              title="Планирование"
+              alt="Планирование"
+            />
             <h3 class="title">Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
@@ -73,7 +87,11 @@
             </p>
           </li>
           <li>
-            <img src="./images/astronaut1.svg" alt="астронавт" />
+            <img
+              src="./images/astronaut-symbolising-modern-technologies.svg"
+              title="Современные технологии"
+              alt="Современные технологии"
+            />
             <h3 class="title">Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
@@ -82,16 +100,15 @@
           </li>
         </ul>
       </section>
-
-      <!-- Exemples -->
-
+      <!-- activities-section -->
       <section class="section">
         <h2 class="section-title">Чем мы занимаемся</h2>
         <ul class="exemples-list list">
           <li>
             <img
-              src="./images/img.jpg"
-              alt="десктоп"
+              src="./images/desktop-applications.jpg"
+              title="Десктопные приложения"
+              alt="Десктопные приложения"
               width="370"
               height="294"
             />
@@ -99,8 +116,9 @@
           </li>
           <li>
             <img
-              src="./images/box.jpg"
-              alt="мобильный"
+              src="./images/mobile-applications.jpg"
+              title="Мобильные приложения"
+              alt="Мобильные приложения"
               width="370"
               height="294"
             />
@@ -108,8 +126,9 @@
           </li>
           <li>
             <img
-              src="./images/img-2.jpg"
-              alt="компьютер"
+              src="./images/design-solutions.jpg"
+              title="Дизайнерские решения"
+              alt="Дизайнерские решения"
               width="370"
               height="294"
             />
@@ -117,16 +136,16 @@
           </li>
         </ul>
       </section>
-
-      <!-- Team -->
-
+      <!-- section-team -->
       <section class="section">
         <h2 class="section-title">Наша команда</h2>
         <ul class="team-list list">
           <li>
             <img
-              src="./images/img-3.jpg"
-              alt="продукт дизайнер"
+              src="./images/product-designer.jpg"
+              lang="en"
+              title="Product Designer"
+              alt="Product Designer"
               width="270"
               height="260"
             />
@@ -134,31 +153,53 @@
             <p lang="en" class="text">Product Designer</p>
             <ul class="list">
               <li>
-                <a href="" aria-label="иконка инстаграм"
-                  ><img src="./images/instagram2.svg" alt="инстаграм"
-                /></a>
+                <a href="" aria-label="Instagram">
+                  <img
+                    src="./images/instagram.svg"
+                    lang="en"
+                    title="Instagram"
+                    alt="Instagram"
+                  />
+                </a>
               </li>
               <li>
-                <a href="" aria-label="иконка твиттер"
-                  ><img src="./images/twitter1.svg" alt="твиттер"
-                /></a>
+                <a href="" aria-label="Twitter">
+                  <img
+                    src="./images/twitter.svg"
+                    lang="en"
+                    title="Twitter"
+                    alt="Twitter"
+                  />
+                </a>
               </li>
               <li>
-                <a href="" aria-label="иконка фейсбук"
-                  ><img src="./images/facebook1.svg" alt="фейсбук"
-                /></a>
+                <a href="" aria-label="Facebook">
+                  <img
+                    src="./images/facebook.svg"
+                    lang="en"
+                    title="Facebook"
+                    alt="Facebook"
+                  />
+                </a>
               </li>
               <li>
-                <a href="" aria-label="иконка линкедин"
-                  ><img src="./images/linkedin1.svg" alt="линкедин"
-                /></a>
+                <a href="" aria-label="LinkedIn">
+                  <img
+                    src="./images/linkedin.svg"
+                    lang="en"
+                    title="LinkedIn"
+                    alt="LinkedIn"
+                  />
+                </a>
               </li>
             </ul>
           </li>
           <li>
             <img
-              src="./images/img-4.jpg"
-              alt="фронтэнд разработчик"
+              src="./images/frontend-developer.jpg"
+              lang="en"
+              title="Frontend Developer"
+              alt="Frontend Developer"
               width="270"
               height="260"
             />
@@ -166,29 +207,53 @@
             <p lang="en" class="text">Frontend Developer</p>
             <ul class="list">
               <li>
-                <a href=""
-                  ><img src="./images/instagram2.svg" alt="инстаграм"
-                /></a>
+                <a href="" aria-label="Instagram">
+                  <img
+                    src="./images/instagram.svg"
+                    lang="en"
+                    title="Instagram"
+                    alt="Instagram"
+                  />
+                </a>
               </li>
               <li>
-                <a href=""><img src="./images/twitter1.svg" alt="твиттер" /></a>
+                <a href="" aria-label="Twitter">
+                  <img
+                    src="./images/twitter.svg"
+                    lang="en"
+                    title="Twitter"
+                    alt="Twitter"
+                  />
+                </a>
               </li>
               <li>
-                <a href=""
-                  ><img src="./images/facebook1.svg" alt="фейсбук"
-                /></a>
+                <a href="" aria-label="Facebook">
+                  <img
+                    src="./images/facebook.svg"
+                    lang="en"
+                    title="Facebook"
+                    alt="Facebook"
+                  />
+                </a>
               </li>
               <li>
-                <a href=""
-                  ><img src="./images/linkedin1.svg" alt="линкедин"
-                /></a>
+                <a href="" aria-label="LinkedIn">
+                  <img
+                    src="./images/linkedin.svg"
+                    lang="en"
+                    title="LinkedIn"
+                    alt="LinkedIn"
+                  />
+                </a>
               </li>
             </ul>
           </li>
           <li>
             <img
-              src="./images/img-5.jpg"
-              alt="маркетолог"
+              src="./images/marketing.jpg"
+              title="Marketing"
+              alt="Marketing"
+              lang="en"
               width="270"
               height="260"
             />
@@ -196,29 +261,53 @@
             <p lang="en" class="text">Marketing</p>
             <ul class="list">
               <li>
-                <a href=""
-                  ><img src="./images/instagram2.svg" alt="инстаграм"
-                /></a>
+                <a href="" aria-label="Instagram">
+                  <img
+                    src="./images/instagram.svg"
+                    lang="en"
+                    title="Instagram"
+                    alt="Instagram"
+                  />
+                </a>
               </li>
               <li>
-                <a href=""><img src="./images/twitter1.svg" alt="твиттер" /></a>
+                <a href="" aria-label="Twitter">
+                  <img
+                    src="./images/twitter.svg"
+                    lang="en"
+                    title="Twitter"
+                    alt="Twitter"
+                  />
+                </a>
               </li>
               <li>
-                <a href=""
-                  ><img src="./images/facebook1.svg" alt="фейсбук"
-                /></a>
+                <a href="" aria-label="Facebook">
+                  <img
+                    src="./images/facebook.svg"
+                    lang="en"
+                    title="Facebook"
+                    alt="Facebook"
+                  />
+                </a>
               </li>
               <li>
-                <a href=""
-                  ><img src="./images/linkedin1.svg" alt="линкедин"
-                /></a>
+                <a href="" aria-label="LinkedIn">
+                  <img
+                    src="./images/linkedin.svg"
+                    lang="en"
+                    title="LinkedIn"
+                    alt="LinkedIn"
+                  />
+                </a>
               </li>
             </ul>
           </li>
           <li>
             <img
-              src="./images/img-6.jpg"
-              alt="дизайнер"
+              src="./images/ui-designer.jpg"
+              lang="en"
+              title="UI Designer"
+              alt="UI Designer"
               width="270"
               height="260"
             />
@@ -226,79 +315,135 @@
             <p lang="en" class="text">UI Designer</p>
             <ul class="list">
               <li>
-                <a href=""
-                  ><img src="./images/instagram2.svg" alt="инстаграм"
-                /></a>
+                <a href="" aria-label="Instagram">
+                  <img
+                    src="./images/instagram.svg"
+                    lang="en"
+                    title="Instagram"
+                    alt="Instagram"
+                  />
+                </a>
               </li>
               <li>
-                <a href=""><img src="./images/twitter1.svg" alt="твиттер" /></a>
+                <a href="" aria-label="Twitter">
+                  <img
+                    src="./images/twitter.svg"
+                    lang="en"
+                    title="Twitter"
+                    alt="Twitter"
+                  />
+                </a>
               </li>
               <li>
-                <a href=""
-                  ><img src="./images/facebook1.svg" alt="фейсбук"
-                /></a>
+                <a href="" aria-label="Facebook">
+                  <img
+                    src="./images/facebook.svg"
+                    lang="en"
+                    title="Facebook"
+                    alt="Facebook"
+                  />
+                </a>
               </li>
               <li>
-                <a href=""
-                  ><img src="./images/linkedin1.svg" alt="линкедин"
-                /></a>
+                <a href="" aria-label="LinkedIn">
+                  <img
+                    src="./images/linkedin.svg"
+                    lang="en"
+                    title="LinkedIn"
+                    alt="LinkedIn"
+                  />
+                </a>
               </li>
             </ul>
           </li>
         </ul>
       </section>
-
-      <!-- Clients -->
-
+      <!-- section-clients -->
       <section class="section">
         <h2 class="section-title">Постоянные клиенты</h2>
         <ul class="list">
           <li>
-            <a href=""
-              ><img src="./images/logo1.svg" alt="логотип клиента"
-            /></a>
+            <a href="">
+              <img
+                src="./images/ya-&-co.svg"
+                lang="en"
+                title="YA & CO"
+                alt="Логотип компании YA & CO"
+              />
+            </a>
           </li>
           <li>
-            <a href=""
-              ><img src="./images/logo2.svg" alt="логотип клиента"
-            /></a>
+            <a href="">
+              <img
+                src="./images/company-tagline-here.svg"
+                lang="en"
+                title="COMPANY TAGLINE HERE"
+                alt="Логотип компании COMPANY TAGLINE HERE"
+              />
+            </a>
           </li>
           <li>
-            <a href=""
-              ><img src="./images/logo3.svg" alt="логотип клиента"
-            /></a>
+            <a href="">
+              <img
+                src="./images/company.svg"
+                lang="en"
+                title="COMPANY"
+                alt="Логотип компании COMPANY"
+              />
+            </a>
           </li>
           <li>
-            <a href=""
-              ><img src="./images/logo4.svg" alt="логотип клиента"
-            /></a>
+            <a href="">
+              <img
+                src="./images/foster-peters.svg"
+                lang="en"
+                title="FOSTER PETERS"
+                alt="Логотип компании FOSTER PETERS"
+              />
+            </a>
           </li>
           <li>
-            <a href=""
-              ><img src="./images/logo5.svg" alt="логотип клиента"
-            /></a>
+            <a href="">
+              <img
+                src="./images/brand.svg"
+                lang="en"
+                title="BRAND"
+                alt="Логотип компании BRAND"
+              />
+            </a>
           </li>
           <li>
-            <a href=""
-              ><img src="./images/logo6.svg" alt="логотип клиента"
-            /></a>
+            <a href="">
+              <img
+                src="./images/company-tagline.svg"
+                lang="en"
+                title="COMPANY TAG LINE"
+                alt="Логотип компании COMPANY TAG LINE"
+              />
+            </a>
           </li>
         </ul>
       </section>
     </main>
+    <!-- footer -->
     <footer class="footer">
-      <a href="./index.html" lang="en" class="logo"
-        >Web <span class="footer">Studio</span></a
-      >
+      <a href="./index.html" lang="en" class="logo">
+        Web
+        <span class="footer">Studio</span>
+      </a>
       <address class="address">
         <p class="text">
-          <span>г. Киев, пр-т Леси Украинки, 26 </span><br /><a
-            href="mailto:info@devstudio.com"
-            lang="en"
-            class="link"
-            >info@example.com</a
-          >
-          <br /><a href="tel:+380961111111" class="link">+38 099 111 11 11</a>
+          <span>г. Киев, пр-т Леси Украинки, 26</span>
+          <br />
+          <a href="https://goo.gl/maps/iPoMP3J4LoHtfxp78" target="_blank">
+            г. Киев, пр-т Леси Украинки, 26
+          </a>
+          <br />
+          <a href="mailto:info@devstudio.com" lang="en" class="link">
+            info@example.com
+          </a>
+          <br />
+          <a href="tel:+380961111111" class="link">+38 099 111 11 11</a>
         </p>
       </address>
       <b class="title">Присоединяйтесь</b>
