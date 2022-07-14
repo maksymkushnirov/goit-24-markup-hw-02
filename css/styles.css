@@ -1,6 +1,6 @@
 :root {
-  --font-primary: "Roboto", sans-serif;
-  --font-secondary: "Raleway", sans-serif;
+  --font-primary: 'Roboto', sans-serif;
+  --font-secondary: 'Raleway', sans-serif;
   --color-text-primary: #757575;
   --color-text-secondary: #212121;
   --color-accent: #2196f3;
@@ -18,9 +18,9 @@ body {
   background-color: #ffffff;
 }
 
-/* a {
+a {
   text-decoration: none;
-} */
+}
 
 .list {
   list-style: none;
@@ -183,7 +183,7 @@ body {
 .team-list .text {
   font-size: 16px;
   line-height: 1.19;
-  text-align: center
+  text-align: center;
 }
 
 /* portfolio.html */
