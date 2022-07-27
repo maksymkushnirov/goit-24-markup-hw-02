@@ -113,6 +113,13 @@ a {
 
 /* sections-main */
 
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--color-text-secondary);
+}
+
 /* section-hero */
 .hero-title {
   font-weight: 900;
@@ -155,12 +162,6 @@ a {
 }
 
 /* section-activities */
-.section-title {
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  color: var(--color-text-secondary);
-}
 
 .examples-list .title {
   font-weight: 700;
