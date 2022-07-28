@@ -7,6 +7,7 @@
   --color-white-primary: #f8f8f8;
   --color-white-secondary: #f5f4fa;
 }
+
 body {
   font-family: var(--font-primary);
   font-style: normal;
