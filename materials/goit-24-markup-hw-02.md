@@ -9,9 +9,6 @@ Task:\
 https://github.com/goitacademy/html-css-homework \
 https://github.com/goitacademy/html-css-homework/blob/master/2-css/README.en.md
 
-**Read in other languages: [Russian](README.md), [Ukrainian](README.ua.md),
-[English](README.en.md), [Spanish](README.es.md), [Polish](README.pl.md).**
-
 # Homework
 
 - Create a repository `goit-markup-hw-02`.
