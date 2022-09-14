@@ -1,4 +1,4 @@
-# goit-24-markup-hw-01
+# goit-24-markup-hw-02
 
 Основи CSS + Оформленння тексту
 
